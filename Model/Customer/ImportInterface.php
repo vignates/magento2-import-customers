@@ -1,6 +1,6 @@
 <?php
 
-namespace Wunderman\Import\Model\Customer;
+namespace Vignates\Import\Model\Customer;
 
 use Symfony\Component\Console\Input\InputInterface;
 

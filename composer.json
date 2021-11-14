@@ -1,5 +1,5 @@
 {
-    "name": "wunderman/module-import",
+    "name": "vignates/module-import",
     "description": "Customer Import via CSV & JSON",
     "type": "magento2-module",
     "license": "proprietary",
@@ -19,7 +19,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Wunderman\\Import\\": ""
+            "Vignates\\Import\\": ""
         }
     }
 }

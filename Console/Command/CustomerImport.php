@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Wunderman\Import\Console\Command;
+namespace Vignates\Import\Console\Command;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Api\Data\CustomerInterfaceFactory;
@@ -14,8 +14,8 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Wunderman\Import\Model\Customer\ImportInterface;
-use Wunderman\Import\Model\Customer\ProfileFactory;
+use Vignates\Import\Model\Customer\ImportInterface;
+use Vignates\Import\Model\Customer\ProfileFactory;
 
 class CustomerImport extends Command
 {

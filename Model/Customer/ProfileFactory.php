@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace Wunderman\Import\Model\Customer;
+namespace Vignates\Import\Model\Customer;
 
 use Magento\Framework\ObjectManagerInterface;
 

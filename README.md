@@ -1,6 +1,6 @@
-# Mage2 Module Wunderman Import
+# Mage2 Module Vignates Import
 
-    ``wunderman/module-import``
+    ``Vignates/module-import``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -17,8 +17,8 @@ Customer Import via CSV & JSON
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/Wunderman`
- - Enable the module by running `php bin/magento module:enable Wunderman_Import`
+ - Unzip the zip file in `app/code/Vignates`
+ - Enable the module by running `php bin/magento module:enable Vignates_Import`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -29,8 +29,8 @@ Customer Import via CSV & JSON
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require wunderman/module-import`
- - enable the module by running `php bin/magento module:enable Wunderman_Import`
+ - Install the module composer by running `composer require Vignates/module-import`
+ - enable the module by running `php bin/magento module:enable Vignates_Import`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
