@@ -24,20 +24,10 @@ Customer Import via CSV & JSON
 
 ### Type 2: Composer
 
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require Vignates/module-import`
+ - Install the module composer by running `composer require vignates/module-import`
  - enable the module by running `php bin/magento module:enable Vignates_Import`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
-
-
-## Configuration
-
-
 
 
 ## Specifications
@@ -45,8 +35,6 @@ Customer Import via CSV & JSON
  - Console Command
 	- CustomerImport
 
-
-## Attributes
 
 
 

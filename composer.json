@@ -9,11 +9,10 @@
             "email": "vignesh.muthuswamy@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": ">=7.4"
     },
+    "version": "1.0.0",
     "autoload": {
         "files": [
             "registration.php"
