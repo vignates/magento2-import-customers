@@ -1,0 +1,25 @@
+{
+    "name": "wunderman/module-import",
+    "description": "Customer Import via CSV & JSON",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vignesh",
+            "email": "vignesh.muthuswamy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wunderman\\Import\\": ""
+        }
+    }
+}
